@@ -21,19 +21,19 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
           }
           <Divider />
-          {toggle === 'web app' ?
+          {toggle === 'graphics' ?
             <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Graphics</ToggleButton>
             :
             <ToggleButton value="web app" onClick={() => setToggle('web app')}>Graphics</ToggleButton>
           }
           <Divider />
-          {toggle === 'android app' ?
+          {toggle === 'video' ?
             <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Video Animation</ToggleButton>
             :
             <ToggleButton value="android app" onClick={() => setToggle('android app')}>Video Animation</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
+          {toggle === 'uiux' ?
             <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>UI / UX</ToggleButton>
             :
             <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>UI / UX</ToggleButton>
