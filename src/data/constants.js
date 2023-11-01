@@ -20,7 +20,7 @@ export const projects = [
   },
   {
     id: 1,
-    title: "Banners for Grocery",
+    title: "Banners for Grocery!!!!!!!!",
     date: "Sept 2022",
     description:
       "🛒 Presenting our latest masterpiece - the eye-catching banner for our grocery app UI and design! 📱🌟 We've poured our creativity into this design to make your grocery shopping experience better than ever. The banner captures the essence of convenience, quality, and variety that our app offers. Stay tuned for more updates and sneak peeks of our design journey. 🛍️ #GroceryApp #UIBanner #DesignInspiration #GroceryShopping",
