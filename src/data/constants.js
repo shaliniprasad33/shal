@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 9,
+    id: 1,
     title: "Fyndora Grocery App",
     date: "Jun 2023 - Jul 2023",
     description:
@@ -19,7 +19,7 @@ export const projects = [
     webapp: "https://www.behance.net/gallery/183552629/LAYOUT-OF-FYNDORA-APP",
   },
   {
-    id: 1,
+    id: 2,
     title: "Banners for Grocery",
     date: "Sept 2022",
     description:
@@ -37,7 +37,7 @@ export const projects = [
     webapp: "https://www.behance.net/gallery/183553025/BANNERS-FOR-GROCERIES",
   },
   {
-    id: 6,
+    id: 3,
     title: "Fyndora Gym",
     date: "Jan 2023",
     description:
@@ -52,8 +52,24 @@ export const projects = [
     category: "graphics",
     webapp: "https://www.behance.net/gallery/183554611/FYNDORA-GYM",
   },
+   {
+    id: 4,
+    title: "Music",
+    date: "Feb 2023",
+    description:
+    "It seems like you'd like a description of music, but I need a bit more information to provide a specific description. Music is a broad and diverse art form, encompassing a wide range of styles and genres. It can evoke a wide array of emotions, tell stories, convey cultural traditions, and serve as a form of artistic expression. Whether you're looking for a description of a particular genre or aspect of music, or if you have a specific title in mind, please provide more details so I can offer a more tailored description.",
+     
+    image:
+      "https://mir-s3-cdn-cf.behance.net/project_modules/1400/f0bb89183550285.6541e4734de04.png",
+    tags: ["Adobe Photoshop",
+      "Adobe Illustrator",
+      "Figma",
+      "Ui / Ux",
+      "Typography",],
+    category: "graphics",
+    webapp: "https://www.behance.net/gallery/183550285/MUSIC",
+  },
  
-  
 ];
 export const Bio = {
   name: "Shalini Prasad",
