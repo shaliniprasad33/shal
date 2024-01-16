@@ -66,7 +66,7 @@ export const projects = [
       "Figma",
       "Ui / Ux",
       "Typography",],
-    category: "graphics",
+    category: "uiux",
     webapp: "https://www.behance.net/gallery/183550285/MUSIC",
   },
   {
