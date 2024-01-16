@@ -30,7 +30,7 @@ const Navbar = () => {
           <NavLink href='#education'>Education</NavLink>
         </NavItems>
         <ButtonContainer>
-          <GitHubButton href={Bio.github} target="_blank">Behance Profile</GitHubButton>
+          <GitHubButton href={Bio.behance} target="_blank">Behance Profile</GitHubButton>
         </ButtonContainer>
         {
           isOpen &&
