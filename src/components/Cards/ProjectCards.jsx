@@ -17,6 +17,7 @@ const Button = styled.button`
 `
 const Card = styled.div`
     width: 330px;
+    height:420px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -39,7 +40,6 @@ const Card = styled.div`
 
 const Image = styled.img`
     width: 100%;
-    height: 180px;
     background-color: ${({ theme }) => theme.white};
     border-radius: 10px;
     box-shadow: 0 0 16px 2px rgba(0,0,0,0.3);
