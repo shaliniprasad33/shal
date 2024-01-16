@@ -165,7 +165,20 @@ export const projects = [
     category: "graphics",
     webapp: "https://www.instagram.com/illustrative_graphic_designer/",
   },
- 
+ {
+    id: 11,
+    title: "Furniture Type Graphics",
+    date: "Jan 2024",
+    description:
+    "This project allowed me to showcase my expertise in graphic design while pushing creative boundaries. I am proud of the outcome and the impact it has made.",
+    image:
+      "https://raw.githubusercontent.com/shaliniprasad33/shal/main/src/images/wood.jpg",
+    tags: [
+      "Adobe Photoshop",
+      "Typography",],
+    category: "graphics",
+    webapp: "https://www.instagram.com/illustrative_graphic_designer/",
+  },
 ];
 export const Bio = {
   name: "Shalini Prasad",
