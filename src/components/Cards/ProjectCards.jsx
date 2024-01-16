@@ -125,7 +125,13 @@ const Avatar = styled.img`
 const ProjectCards = ({project,setOpenModal}) => {
     return (
         <Card onClick={() => setOpenModal({state: true, project: project})}>
-            <Image src={project.image}/>
+            {
+                project.category === 'video' ? <>
+                <video id="VisaChipCardVideo" width="320" controls>
+                  <source src={project.image} type="video/mp4">
+                </video>
+                </>: <Image src={project.image}/>
+            }
             <Tags>
                 {project.tags?.map((tag, index) => (
                 <Tag>{tag}</Tag>
