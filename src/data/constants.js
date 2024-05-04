@@ -197,6 +197,15 @@ export const projects = [
     tags: ["Adobe Photoshop"],
     category: "graphics",
   },
+  {
+    id: 14,
+    title: "Social Media Post",
+    date: "Feb 2024",
+    image:
+      "https://raw.githubusercontent.com/shaliniprasad33/shal/main/src/images/Trip Hackers.jpg",
+    tags: ["Adobe Illustrator"],
+    category: "graphics",
+  },
 ];
 export const Bio = {
   name: "Shalini Prasad",
