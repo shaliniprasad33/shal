@@ -213,7 +213,7 @@ export const projects = [
     image:
       "https://raw.githubusercontent.com/shaliniprasad33/shal/main/src/images/Artboard 567890fds-.png",
     tags: ["Adobe Illustrator"],
-    category: "poster",
+    category: "graphics",
   },
    {
     id: 16,
