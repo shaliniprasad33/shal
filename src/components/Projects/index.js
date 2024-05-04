@@ -27,6 +27,12 @@ const Projects = ({openModal,setOpenModal}) => {
             <ToggleButton value="graphics" onClick={() => setToggle('graphics')}>Graphics</ToggleButton>
           }
           <Divider />
+            {toggle === 'poster' ?
+            <ToggleButton active value="web app" onClick={() => setToggle('poster')}>Poster</ToggleButton>
+            :
+            <ToggleButton value="poster" onClick={() => setToggle('poster')}>Poster</ToggleButton>
+          }
+          <Divider />
           {toggle === 'video' ?
             <ToggleButton active value="android app" onClick={() => setToggle('video')}>Video Animation</ToggleButton>
             :
