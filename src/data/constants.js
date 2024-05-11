@@ -238,7 +238,7 @@ export const projects = [
     title: "Social media Post",
     date: "Feb 2024",
     image:
-      "https://raw.githubusercontent.com/shaliniprasad33/shal/main/src/images/cheesy burger.png",
+      "https://raw.githubusercontent.com/shaliniprasad33/shal/main/src/images/tandooori post.jpg",
     tags: ["Adobe Illustrator,Adobe Photoshop"],
     category: "poster",
   },
